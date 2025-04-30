@@ -1,14 +1,14 @@
 # storytelling-platform-react-springboot-JPA
 
-Birthday Event Planner
-A modern and dynamic Birthday Event Planner application designed to help users plan, organize, and manage birthday events. This project integrates a React frontend powered by Vite and a Spring Boot backend to deliver a seamless and efficient experience. It allows users to create, view, and manage birthday events with all necessary details, like invitations, guest lists, themes, and reminders.
+Storytelling Platform
+A modern Storytelling Platform designed to enable users to create, share, and explore stories. This application features a user-friendly React frontend and a powerful Spring Boot backend with JPA for database interaction, enabling rich features like user authentication, story creation, editing, and commenting. The platform allows both authors and readers to engage with each other's stories.
 
 Technologies Used
-Frontend: React (with Vite as the build tool for fast development)
+Frontend: React (for the user interface)
 
-Backend: Spring Boot (RESTful API)
+Backend: Spring Boot (for the RESTful API)
 
-Database: H2 (in-memory for development, can be replaced with any SQL-based DB)
+Database: H2 (for development) / MySQL/PostgreSQL (for production) via JPA (Java Persistence API)
 
 Authentication: JWT (JSON Web Tokens) for secure user login
 
@@ -19,14 +19,15 @@ State Management: React Context or Redux (if needed)
 API Communication: Axios for HTTP requests
 
 Features
-Create and manage birthday events: Users can create events with details like date, time, venue, and theme.
+User Authentication: Users can register, log in, and manage their accounts using JWT-based authentication.
 
-Guest List: Users can add, edit, and remove guests for their birthday events.
+Create and Manage Stories: Users can create, edit, and delete their stories.
 
-Event Reminders: Get notified about upcoming events.
+Story Comments: Readers can comment on stories, and authors can respond.
 
-Event Invitations: Send invitations to guests via email or other methods (potential integration with email services).
+Story Categories: Categorize stories into different genres or themes like fantasy, adventure, mystery, etc.
 
-User Authentication: Login and registration functionality with JWT-based authentication.
+Like and Share Stories: Users can like and share their favorite stories.
 
+Responsive Design: Optimized for mobile and desktop views.
 Responsive Design: Mobile-friendly UI optimized for all screen sizes.

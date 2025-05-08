@@ -1,7 +1,5 @@
 # storytelling-platform-react-springboot
 
-# Storytelling Platform
-
 A modern **Storytelling Platform** designed to enable users to create, share, and explore stories. This application features a user-friendly **React** frontend and a powerful **Spring Boot** backend with **JPA** for database interaction, enabling rich features like user authentication, story creation, editing, and commenting. The platform allows both authors and readers to engage with each other's stories.
 
 ## Technologies Used

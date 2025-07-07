@@ -13,7 +13,7 @@ This project is a full-stack storytelling platform built using React for the fro
 - Responsive design for mobile and desktop
 
 ## Technologies Used
-- **Frontend:**
+- **Frontend:** 
   - React.js
   - Redux for state management
   - CSS for styling

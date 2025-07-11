@@ -15,7 +15,7 @@ This project is a full-stack storytelling platform built using React for the fro
 ## Technologies Used
 - **Frontend:**  
   - React.js 
-  - Redux for state management
+  - Redux for state management 
   - CSS for styling
 - **Backend:**
   - Spring Boot 

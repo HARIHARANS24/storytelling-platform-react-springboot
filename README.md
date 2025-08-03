@@ -8,7 +8,7 @@ This project is a full-stack storytelling platform built using React for the fro
 - Story creation and management 
 - Genre-based story categorization    
 - Feedback and rating system     
-- User dashboard for story management    
+- User dashboard for story management     
 - Admin panel for user and story management     
 - Responsive design for mobile and desktop   
   

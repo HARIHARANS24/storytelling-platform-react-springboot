@@ -3,7 +3,7 @@
 ## Project Overview
 This project is a full-stack storytelling platform built using React for the frontend and Spring Boot for the backend. It provides a platform for users to create, share, and explore stories across various genres.
  
-## Features
+## Features 
 - User authentication and registration  
 - Story creation and management 
 - Genre-based story categorization     

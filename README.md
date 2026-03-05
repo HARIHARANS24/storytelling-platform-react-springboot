@@ -36,298 +36,240 @@ This project is a full-stack storytelling platform built using React for the fro
   ```
 
 ## Project Structure
-
-### Frontend
-- 📁 **src/**
-  - 📁 **redux/**
-    - 📄 store.js
-    - 📄 reducer.js
-  - 📁 **pages/**
-    - 📁 **Home/**
-      - 📄 Home.js
-      - 📄 Home.css
-    - 📁 **SignIn/**
-      - 📄 Login.js
-      - 📄 Login.css
-    - 📁 **SignUp/**
-      - 📄 Create.js
-      - 📄 Create.css
-    - 📁 **ShortStory/**
-      - 📄 ShortStory.js
-      - 📄 ShortStory.css
-      - 📄 Stories.css
-    - 📁 **Genre/**
-      - 📄 Genre.js
-      - 📄 Genre.css
-      - 📁 **Stories/**
-        - 📄 Story.js
-        - 📄 Stories.css
-        - 📄 StarRating.js
-    - 📁 **Dashboardf/**
-      - 📄 dbuserdetails.js
-      - 📄 dboverview.js
-      - 📄 dboverview.css
-      - 📄 dbadmins.js
-      - 📄 dashboard.js
-      - 📄 dashboard.css
-    - 📁 **TextEditor/**
-      - 📄 TextEditor.js
-      - 📄 TextEditor.css
-    - 📁 **Table/**
-      - 📄 usertable.js
-      - 📄 storytable.js
-      - 📄 storyPage.css
-      - 📄 shortsorytable.js
-      - 📄 feedbacktable.js
-    - 📁 **Queries/**
-      - 📄 Queries.js
-      - 📄 Queries.css
-    - 📁 **Policies/**
-      - 📄 PrivacyPolicy.js
-    - 📁 **Faq/**
-      - 📄 Fa.js
-      - 📄 Fa.css
-      - 📄 F.js
-    - 📁 **Contact/**
-      - 📄 Contact.js
-      - 📄 Contact.css
-    - 📁 **AdminLogin/**
-      - 📄 adminlogin.js
-      - 📄 adminlogin.css
-    - 📁 **Creators Corner/**
-      - 📄 Creators.js
-      - 📄 Creators.css
-    - 📁 **Terms/**
-      - 📄 Terms.js
-  - 📄 setupTests.js
-  - 📄 reportWebVitals.js
-  - 📄 logo.svg
-  - 📄 index.js
-  - 📄 index.css
-  - 📄 App.test.js
-  - 📄 App.js
-  - 📄 App.css
-- 📁 **public/**
-  - 📄 youtube.png
-  - 📄 users12.png
-  - 📄 usericons.png
-  - 📄 twitter.png
-  - 📄 sign2.avif
-  - 📄 sign1.avif
-  - 📄 sats.png
-  - 📄 robots.txt
-  - 📄 potry.jpg
-  - 📄 phonenumber.png
-  - 📄 notinterested.png
-  - 📄 nature.jpg
-  - 📄 mostviewed.png
-  - 📄 mostliked.jpeg
-  - 📄 manifest.json
-  - 📄 lovi.jpg
-  - 📄 logo512.png
-  - 📄 logo192.png
-  - 📄 lifestyle.jpg
-  - 📄 instagram.png
-  - 📄 index.html
-  - 📄 ic2.png
-  - 📄 ic.png
-  - 📄 hory.jpg
-  - 📄 history.jpg
-  - 📄 highestrating.jpeg
-  - 📄 gamy.jpg
-  - 📄 fax.png
-  - 📄 favicon.ico
-  - 📄 facebook.png
-  - 📄 email.png
-  - 📄 dog.jpg
-  - 📄 db 1.jpg
-  - 📄 crimy.jpg
-  - 📄 comdy.jpg
-  - 📄 background.jpeg
-  - 📄 analytics.webp
-  - 📄 adminusericon.jpg
-  - 📄 adminlogo.png
-  - 📄 admin user corner.jpg
-  - 📄 admin sin.webp
-  - 📄 address.png
-  - 📄 ad sin
-  - 📄 MYTHY.jpg
-  - 📄 KIDY.jpg
-  - 📄 1.png
-- 📁 **.vscode/**
-  - 📄 launch.json
-- 📄 package.json
-- 📄 package-lock.json
-- 📄 README.md
-- 📄 .gitignore
-
-### Backend
-- 📁 **NAMING/**
-  - 📁 **src/**
-  - 📁 **.mvn/**
-  - 📄 pom.xml
-  - 📄 mvnw.cmd
-  - 📄 mvnw
-  - 📄 .gitignore
-- 📁 **MICROSERVICE/**
-  - 📁 **src/**
-  - 📁 **.mvn/**
-  - 📄 pom.xml
-  - 📄 mvnw.cmd
-  - 📄 mvnw
-  - 📄 .gitignore
-- 📁 **BACKEND/**
-  - 📁 **src/**
-    - 📁 **test/**
-    - 📁 **main/**
-      - 📁 **resources/**
-        - 📄 application.properties
-      - 📁 **java/**
-        - 📁 **com/**
-          - 📁 **example/**
-            - 📁 **demo/**
-              - 📁 **util/**
-              - 📁 **service/**
-              - 📁 **repository/**
-              - 📁 **model/**
-              - 📁 **dto/**
-              - 📁 **controller/**
-              - 📁 **constant/**
-              - 📁 **config/**
-              - 📄 ProjectApplication.java
-  - 📁 **logs/**
-  - 📄 pom.xml
-  - 📄 mvnw.cmd
-  - 📄 mvnw
-  - 📄 .gitignore
-- 📁 **API-GATEWAY/**
-  - 📁 **src/**
-  - 📁 **.mvn/**
-  - 📄 pom.xml
-  - 📄 mvnw.cmd
-  - 📄 mvnw
-  - 📄 .gitignore
-
-## Backend Source Files
-
-### Backend/BACKEND/src
-- 📁 **test/**
-- 📁 **main/**
-  - 📁 **resources/**
-    - 📄 application.properties
-  - 📁 **java/**
-    - 📁 **com/**
-      - 📁 **example/**
-        - 📁 **demo/**
-          - 📁 **util/**
-            - 📄 JwtUtil.java
-          - 📁 **service/**
-            - 📄 UserService.java
-            - 📄 StoryService.java
-            - 📄 ShortStoryService.java
-            - 📄 GenreService.java
-            - 📄 FeedbackService.java
-            - 📄 FavouriteService.java
-            - 📄 AuthService.java
-          - 📁 **repository/**
-            - 📄 UserRepository.java
-            - 📄 StoryRepository.java
-            - 📄 ShortStoryRepository.java
-            - 📄 GenreRepository.java
-            - 📄 FeedbackRepository.java
-            - 📄 FavouriteRepository.java
-          - 📁 **model/**
-            - 📁 **enumerate/**
-              - 📄 Role.java
-            - 📄 User.java
-            - 📄 StoryModel.java
-            - 📄 ShortStory.java
-            - 📄 Genre.java
-            - 📄 Feedback.java
-            - 📄 Favourite.java
-          - 📁 **dto/**
-            - 📁 **response/**
-              - 📄 AuthenticationResponse.java
-            - 📁 **request/**
-              - 📄 RegisterRequest.java
-              - 📄 AuthenticationRequest.java
-            - 📄 Favouriterequest.java
-          - 📁 **controller/**
-            - 📄 UserController.java
-            - 📄 StoryController.java
-            - 📄 ShortStoryController.java
-            - 📄 GenreController.java
-            - 📄 FeedbackController.java
-            - 📄 FavouriteController.java
-            - 📄 AuthenticationController.java
-          - 📁 **constant/**
-            - 📄 Api.java
-          - 📁 **config/**
-            - 📄 SecurityConfig.java
-            - 📄 JwtAuthenticationFilter.java
-            - 📄 ApplicationConfig.java
-          - 📄 ProjectApplication.java
-
-## API-GATEWAY Source Files
-
-### Backend/API-GATEWAY
-- 📁 **src/**
-  - 📁 **test/**
-  - 📁 **main/**
-    - 📁 **resources/**
-    - 📁 **java/**
-      - 📁 **com/**
-        - 📁 **example/**
-          - 📁 **demo/**
-            - 📄 GatewayApplication.java
-- 📁 **.mvn/**
-  - 📁 **wrapper/**
-    - 📄 maven-wrapper.properties
-    - 📄 maven-wrapper.jar
-- 📄 pom.xml
-- 📄 mvnw.cmd
-- 📄 mvnw
-- 📄 .gitignore
-
-## MICROSERVICE Source Files
-
-### Backend/MICROSERVICE/src
-- 📁 **test/**
-- 📁 **main/**
-  - 📁 **resources/**
-  - 📁 **java/**
-    - 📁 **com/**
-      - 📁 **demo/**
-        - 📁 **Service/**
-          - 📄 FeedbackService.java
-        - 📁 **Repository/**
-          - 📄 FeedbackRepository.java
-        - 📁 **Model/**
-          - 📄 Feedback.java
-        - 📁 **Controller/**
-          - 📄 FeedbackController.java
-        - 📄 MicroServiceApplication.java
-
-## NAMING Source Files
-
-### Backend/NAMING
-- 📁 **src/**
-  - 📁 **test/**
-  - 📁 **main/**
-    - 📁 **resources/**
-    - 📁 **java/**
-      - 📁 **com/**
-        - 📁 **example/**
-          - 📁 **demo/**
-            - 📄 NamingApplication.java
-- 📁 **.mvn/**
-  - 📁 **wrapper/**
-    - 📄 maven-wrapper.properties
-    - 📄 maven-wrapper.jar
-- 📄 pom.xml
-- 📄 mvnw.cmd
-- 📄 mvnw
-- 📄 .gitignore
+```
+Directory structure:
+└── hariharans24-storytelling-platform-react-springboot/
+    ├── README.md
+    ├── gitattributes
+    ├── LICENSE.txt
+    ├── Backend/
+    │   ├── API-GATEWAY/
+    │   │   ├── mvnw
+    │   │   ├── mvnw.cmd
+    │   │   ├── pom.xml
+    │   │   ├── .gitignore
+    │   │   ├── src/
+    │   │   │   ├── main/
+    │   │   │   │   ├── java/
+    │   │   │   │   │   └── com/
+    │   │   │   │   │       └── example/
+    │   │   │   │   │           └── demo/
+    │   │   │   │   │               └── GatewayApplication.java
+    │   │   │   │   └── resources/
+    │   │   │   │       └── application.properties
+    │   │   │   └── test/
+    │   │   │       └── java/
+    │   │   │           └── com/
+    │   │   │               └── example/
+    │   │   │                   └── demo/
+    │   │   │                       └── GatewayApplicationTests.java
+    │   │   └── .mvn/
+    │   │       └── wrapper/
+    │   │           └── maven-wrapper.properties
+    │   ├── BACKEND/
+    │   │   ├── mvnw
+    │   │   ├── mvnw.cmd
+    │   │   ├── pom.xml
+    │   │   ├── .gitignore
+    │   │   ├── logs/
+    │   │   └── src/
+    │   │       ├── main/
+    │   │       │   ├── java/
+    │   │       │   │   └── com/
+    │   │       │   │       └── example/
+    │   │       │   │           └── demo/
+    │   │       │   │               ├── ProjectApplication.java
+    │   │       │   │               ├── config/
+    │   │       │   │               │   ├── ApplicationConfig.java
+    │   │       │   │               │   ├── JwtAuthenticationFilter.java
+    │   │       │   │               │   └── SecurityConfig.java
+    │   │       │   │               ├── constant/
+    │   │       │   │               │   └── Api.java
+    │   │       │   │               ├── controller/
+    │   │       │   │               │   ├── AuthenticationController.java
+    │   │       │   │               │   ├── FavouriteController.java
+    │   │       │   │               │   ├── FeedbackController.java
+    │   │       │   │               │   ├── GenreController.java
+    │   │       │   │               │   ├── ShortStoryController.java
+    │   │       │   │               │   ├── StoryController.java
+    │   │       │   │               │   └── UserController.java
+    │   │       │   │               ├── dto/
+    │   │       │   │               │   ├── Favouriterequest.java
+    │   │       │   │               │   ├── request/
+    │   │       │   │               │   │   ├── AuthenticationRequest.java
+    │   │       │   │               │   │   └── RegisterRequest.java
+    │   │       │   │               │   └── response/
+    │   │       │   │               │       └── AuthenticationResponse.java
+    │   │       │   │               ├── model/
+    │   │       │   │               │   ├── Favourite.java
+    │   │       │   │               │   ├── Feedback.java
+    │   │       │   │               │   ├── Genre.java
+    │   │       │   │               │   ├── ShortStory.java
+    │   │       │   │               │   ├── StoryModel.java
+    │   │       │   │               │   ├── User.java
+    │   │       │   │               │   └── enumerate/
+    │   │       │   │               │       └── Role.java
+    │   │       │   │               ├── repository/
+    │   │       │   │               │   ├── FavouriteRepository.java
+    │   │       │   │               │   ├── FeedbackRepository.java
+    │   │       │   │               │   ├── GenreRepository.java
+    │   │       │   │               │   ├── ShortStoryRepository.java
+    │   │       │   │               │   ├── StoryRepository.java
+    │   │       │   │               │   └── UserRepository.java
+    │   │       │   │               ├── service/
+    │   │       │   │               │   ├── AuthService.java
+    │   │       │   │               │   ├── FavouriteService.java
+    │   │       │   │               │   ├── FeedbackService.java
+    │   │       │   │               │   ├── GenreService.java
+    │   │       │   │               │   ├── ShortStoryService.java
+    │   │       │   │               │   ├── StoryService.java
+    │   │       │   │               │   └── UserService.java
+    │   │       │   │               └── util/
+    │   │       │   │                   └── JwtUtil.java
+    │   │       │   └── resources/
+    │   │       │       └── application.properties
+    │   │       └── test/
+    │   │           └── java/
+    │   │               └── com/
+    │   │                   └── demo/
+    │   │                       └── ProjectApplicationTests.java
+    │   ├── MICROSERVICE/
+    │   │   ├── mvnw
+    │   │   ├── mvnw.cmd
+    │   │   ├── pom.xml
+    │   │   ├── .gitignore
+    │   │   ├── src/
+    │   │   │   ├── main/
+    │   │   │   │   ├── java/
+    │   │   │   │   │   └── com/
+    │   │   │   │   │       └── demo/
+    │   │   │   │   │           ├── MicroServiceApplication.java
+    │   │   │   │   │           ├── Controller/
+    │   │   │   │   │           │   └── FeedbackController.java
+    │   │   │   │   │           ├── Model/
+    │   │   │   │   │           │   └── Feedback.java
+    │   │   │   │   │           ├── Repository/
+    │   │   │   │   │           │   └── FeedbackRepository.java
+    │   │   │   │   │           └── Service/
+    │   │   │   │   │               └── FeedbackService.java
+    │   │   │   │   └── resources/
+    │   │   │   │       └── application.properties
+    │   │   │   └── test/
+    │   │   │       └── java/
+    │   │   │           └── com/
+    │   │   │               └── demo/
+    │   │   │                   └── MicroServiceApplicationTests.java
+    │   │   └── .mvn/
+    │   │       └── wrapper/
+    │   │           └── maven-wrapper.properties
+    │   └── NAMING/
+    │       ├── mvnw
+    │       ├── mvnw.cmd
+    │       ├── pom.xml
+    │       ├── .gitignore
+    │       ├── src/
+    │       │   ├── main/
+    │       │   │   ├── java/
+    │       │   │   │   └── com/
+    │       │   │   │       └── example/
+    │       │   │   │           └── demo/
+    │       │   │   │               └── NamingApplication.java
+    │       │   │   └── resources/
+    │       │   │       └── application.properties
+    │       │   └── test/
+    │       │       └── java/
+    │       │           └── com/
+    │       │               └── example/
+    │       │                   └── demo/
+    │       │                       └── NamingApplicationTests.java
+    │       └── .mvn/
+    │           └── wrapper/
+    │               └── maven-wrapper.properties
+    └── Frontend/
+        ├── README.md
+        ├── package-lock.json
+        ├── package.json
+        ├── .gitignore
+        ├── public/
+        │   ├── ad sin
+        │   ├── admin sin.webp
+        │   ├── analytics.webp
+        │   ├── index.html
+        │   ├── manifest.json
+        │   ├── robots.txt
+        │   ├── sign1.avif
+        │   └── sign2.avif
+        ├── src/
+        │   ├── App.css
+        │   ├── App.js
+        │   ├── App.test.js
+        │   ├── index.css
+        │   ├── index.js
+        │   ├── reportWebVitals.js
+        │   ├── setupTests.js
+        │   ├── pages/
+        │   │   ├── AdminLogin/
+        │   │   │   ├── adminlogin.css
+        │   │   │   └── adminlogin.js
+        │   │   ├── Contact/
+        │   │   │   ├── Contact.css
+        │   │   │   └── Contact.js
+        │   │   ├── Creators Corner/
+        │   │   │   ├── Creators.css
+        │   │   │   └── Creators.js
+        │   │   ├── Dashboardf/
+        │   │   │   ├── dashboard.css
+        │   │   │   ├── dashboard.js
+        │   │   │   ├── dbadmins.js
+        │   │   │   ├── dboverview.css
+        │   │   │   ├── dboverview.js
+        │   │   │   └── dbuserdetails.js
+        │   │   ├── Faq/
+        │   │   │   ├── F.js
+        │   │   │   ├── Fa.css
+        │   │   │   └── Fa.js
+        │   │   ├── Genre/
+        │   │   │   ├── Genre.css
+        │   │   │   ├── Genre.js
+        │   │   │   └── Stories/
+        │   │   │       ├── StarRating.js
+        │   │   │       ├── Stories.css
+        │   │   │       └── Story.js
+        │   │   ├── Home/
+        │   │   │   ├── Home.css
+        │   │   │   └── Home.js
+        │   │   ├── Policies/
+        │   │   │   └── PrivacyPolicy.js
+        │   │   ├── Queries/
+        │   │   │   ├── Queries.css
+        │   │   │   └── Queries.js
+        │   │   ├── ShortStory/
+        │   │   │   ├── ShortStory.css
+        │   │   │   ├── ShortStory.js
+        │   │   │   └── Stories.css
+        │   │   ├── SignIn/
+        │   │   │   ├── Login.css
+        │   │   │   └── Login.js
+        │   │   ├── SignUp/
+        │   │   │   ├── Create.css
+        │   │   │   └── Create.js
+        │   │   ├── Table/
+        │   │   │   ├── feedbacktable.js
+        │   │   │   ├── shortsorytable.js
+        │   │   │   ├── storyPage.css
+        │   │   │   ├── storytable.js
+        │   │   │   └── usertable.js
+        │   │   ├── Terms/
+        │   │   │   └── Terms.js
+        │   │   └── TextEditor/
+        │   │       ├── TextEditor.css
+        │   │       └── TextEditor.js
+        │   └── redux/
+        │       ├── reducer.js
+        │       └── store.js
+        └── .vscode/
+            └── launch.json
+```
 
 ## Prerequisites
 - Node.js and npm for frontend development
